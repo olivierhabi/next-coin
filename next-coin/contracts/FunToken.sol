@@ -13,7 +13,6 @@ contract FunToken {
     uint public DECIMALS = (10 ** decimals);
     uint256 public totalSupply = 1000000 * DECIMALS;
     uint256 public rewardDistribution; 
-
     uint256 public depositCount = 0;
 
     
