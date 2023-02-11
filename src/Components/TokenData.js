@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import { ethers, Wallet } from "ethers";
 import { MetamaskContext } from "../Contexts/MetamaskContext";
 import Web3 from "web3";
-import FunToken from "../../next-coin/artifacts/contracts/FunToken.sol/FunToken.json";
+import FunToken from "../smartcontract/FunToken.json";
 import { provider } from "../../utils/Contract";
 
 const contractAddress = "0xdFEa31Ce6a2473D008a194F468C90FaFAFd74a26";
